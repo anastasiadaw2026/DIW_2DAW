@@ -96,3 +96,50 @@ main {
     height: 82.1vh;
 }
 
+.contenedor_galeria {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: space-around;
+    justify-items: center;
+    margin: 10px 0px;
+    row-gap: 20px;
+}
+
+.item_galeria {
+    width: 230px;
+    background-color: #7B2C08;
+    border-radius: 10px;
+    color: #F8BD3D;
+    overflow: hidden;
+}
+
+.item_galeria img {
+    width: 100%;
+    height: 150px;
+}
+
+.item_galeria p {
+    margin: 5px 0px;
+}
+
+main button {
+    background-color: #F8BD3D;
+    color: #7B2C08;
+    font-weight: bold;
+    border-width: 0;
+    border-radius: 30px;
+    padding: 5px 25px;
+}
+
+.item_galeria .material-symbols-outlined {
+    font-size: 32px;
+}
+
+.item_galeria_detalles {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content: space-around;
+    justify-items: center;
+    margin: 12px 0px;
+}
