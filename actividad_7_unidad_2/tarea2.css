@@ -15,4 +15,71 @@ header {
     padding: 6px 0px;
 }
 
+header img {
+    border-radius: 100%;
+    width: 7%;
+}
 
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-family: "Electrolize", sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+    color: darkgreen;
+    font-size: 32px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.iconos {
+    display: flex;
+    gap: 50px;
+}
+
+.iconos span{
+    font-size: 2.5rem;
+}
+
+.iconos span:hover {
+    color: orange;
+}
+
+.iconos label {
+    display: block;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.item_galeria {
+    width: 200px;
+
+}
+
+.item_galeria img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.item_galeria p {
+    background-color: darkgreen;
+    margin: 0;
+    color: white;
+    padding: 10px 0px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: darkgreen;
+    color: white;
+    padding: 5px 0px;
+    margin-top: 50px;
+}
